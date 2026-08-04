@@ -1,0 +1,26 @@
+# Git
+.git/
+.gitignore
+
+# Büyük backup klasörleri — container'a girmesin
+00_admin/backups/
+09_draft/backups/
+
+# Geliştirme araçları
+tools/migrate-budget-csv.mjs
+
+# Log dosyaları
+*.log
+npm-debug.log*
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (zaten yok ama güvenlik için)
+node_modules/
+
+# Geçici dosyalar
+*.tmp
+*.temp

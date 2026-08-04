@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.kisa-film/schema/draft-package.schema.json",
+  "title": "Kısa Film Draft Paketi",
+  "type": "object",
+  "required": ["package_id", "type", "location"],
+  "properties": {
+    "package_id": {
+      "type": "string",
+      "pattern": "^DRF-[A-Z0-9][A-Z0-9-]*$"
+    },
+    "type": {
+      "const": "location"
+    },
+    "location": {
+      "type": "object",
+      "required": ["location_name"],
+      "properties": {
+        "location_id": {
+          "type": "string",
+          "pattern": "^LOC-[0-9]{3,}$"
+        },
+        "location_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "address_or_area": {
+          "type": "string"
+        },
+        "int_ext": {
+          "type": "string"
+        },
+        "day_night": {
+          "type": "string"
+        },
+        "scene_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^SC-[0-9]{3,}$"
+          }
+        },
+        "permission_status": {
+          "type": "string"
+        },
+        "recce_status": {
+          "type": "string"
+        },
+        "cost_estimate_try": {
+          "type": "number",
+          "minimum": 0
+        },
+        "status": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "object",
+            "required": ["file"],
+            "properties": {
+              "file": {
+                "type": "string"
+              },
+              "role": {
+                "enum": ["location_photo", "location_document", "other"]
+              },
+              "caption": {
+                "type": "string"
+              },
+              "rights_status": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "budget": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["description"],
+        "properties": {
+          "budget_item_id": {
+            "type": "string",
+            "pattern": "^BUD-[0-9]{3,}$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "sub_category": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "number",
+            "minimum": 0
+          },
+          "unit_cost_try": {
+            "type": "number",
+            "minimum": 0
+          },
+          "contingency_pct": {
+            "type": "number",
+            "minimum": 0
+          },
+          "source": {
+            "type": "string"
+          },
+          "approval_status": {
+            "type": "string"
+          },
+          "paid_status": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "dept-prod",
+    "name": "Yapım (Prodüksiyon) Departmanı",
+    "roles": [
+      "Yapımcı (Producer)",
+      "Uygulayıcı Yapımcı (Line Producer)",
+      "Yapım Amiri (Production Manager)",
+      "Yapım Koordinatörü (Production Coordinator)",
+      "Set Amiri (Set Key Assistant)",
+      "Yapım Asistanı (Production Assistant)"
+    ],
+    "members": [
+      {
+        "id": "p-dept-prod-0",
+        "role": "Yapımcı (Producer)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-prod-1",
+        "role": "Uygulayıcı Yapımcı (Line Producer)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-prod-2",
+        "role": "Yapım Amiri (Production Manager)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      },
+      {
+        "id": "p-dept-prod-3",
+        "role": "Yapım Koordinatörü (Production Coordinator)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 9000
+      },
+      {
+        "id": "p-dept-prod-4",
+        "role": "Set Amiri (Set Key Assistant)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 7000
+      },
+      {
+        "id": "p-dept-prod-5",
+        "role": "Yapım Asistanı (Production Assistant)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 5000
+      }
+    ]
+  },
+  {
+    "id": "dept-dir",
+    "name": "Reji (Yönetim) Departmanı",
+    "roles": [
+      "Yönetmen (Director)",
+      "Yönetmen Yardımcısı (1st Assistant Director)",
+      "Yönetmen Yardımcısı (2nd Assistant Director)",
+      "Devamlılık Yazmanı (Script Supervisor)",
+      "Cast Direktörü (Casting Director)"
+    ],
+    "members": [
+      {
+        "id": "p-dept-dir-0",
+        "role": "Yönetmen (Director)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-dir-1",
+        "role": "Yönetmen Yardımcısı (1st Assistant Director)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-dir-2",
+        "role": "Yönetmen Yardımcısı (2nd Assistant Director)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      },
+      {
+        "id": "p-dept-dir-3",
+        "role": "Devamlılık Yazmanı (Script Supervisor)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 9000
+      },
+      {
+        "id": "p-dept-dir-4",
+        "role": "Cast Direktörü (Casting Director)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 7000
+      }
+    ]
+  },
+  {
+    "id": "dept-cam",
+    "name": "Kamera ve Görüntü Departmanı",
+    "roles": [
+      "Görüntü Yönetmeni (Director of Photography / DP)",
+      "Kameraman (Camera Operator)",
+      "Kamera Asistanı / Netlik Şefi (1st AC / Focus Puller)",
+      "Kamera Asistanı (2nd AC / Clapper Loader)",
+      "Dijital Görüntü Teknisyeni (DIT / Data Wrangler)",
+      "Steadicam / Jimmy Jib Operatörü"
+    ],
+    "members": [
+      {
+        "id": "p-dept-cam-0",
+        "role": "Görüntü Yönetmeni (Director of Photography / DP)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": "45554"
+      },
+      {
+        "id": "p-dept-cam-1",
+        "role": "Kameraman (Camera Operator)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-cam-2",
+        "role": "Kamera Asistanı / Netlik Şefi (1st AC / Focus Puller)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      },
+      {
+        "id": "p-dept-cam-3",
+        "role": "Kamera Asistanı (2nd AC / Clapper Loader)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 9000
+      },
+      {
+        "id": "p-dept-cam-4",
+        "role": "Dijital Görüntü Teknisyeni (DIT / Data Wrangler)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 7000
+      },
+      {
+        "id": "p-dept-cam-5",
+        "role": "Steadicam / Jimmy Jib Operatörü",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 5000
+      }
+    ]
+  },
+  {
+    "id": "dept-light",
+    "name": "Işık Departmanı",
+    "roles": [
+      "Işık Şefi (Gaffer)",
+      "Işık Şef Yardımcısı (Best Boy Electric)",
+      "Işık Asistanı / Elektrikçi (Electrician)"
+    ],
+    "members": [
+      {
+        "id": "p-dept-light-0",
+        "role": "Işık Şefi (Gaffer)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-light-1",
+        "role": "Işık Şef Yardımcısı (Best Boy Electric)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-light-2",
+        "role": "Işık Asistanı / Elektrikçi (Electrician)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      }
+    ]
+  },
+  {
+    "id": "dept-grip",
+    "name": "Set / Mekanik (Grip) Departmanı",
+    "roles": [
+      "Grip Şefi (Key Grip)",
+      "Grip Yardımcısı (Best Boy Grip)",
+      "Set İşçisi / Grip (Grip)"
+    ],
+    "members": [
+      {
+        "id": "p-dept-grip-0",
+        "role": "Grip Şefi (Key Grip)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-grip-1",
+        "role": "Grip Yardımcısı (Best Boy Grip)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-grip-2",
+        "role": "Set İşçisi / Grip (Grip)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      }
+    ]
+  },
+  {
+    "id": "dept-sound",
+    "name": "Ses Departmanı",
+    "roles": [
+      "Ses Kayıtçısı (Production Sound Mixer)",
+      "Boom Operatörü (Boom Operator)",
+      "Ses Asistanı (Sound Utility)"
+    ],
+    "members": [
+      {
+        "id": "p-dept-sound-0",
+        "role": "Ses Kayıtçısı (Production Sound Mixer)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-sound-1",
+        "role": "Boom Operatörü (Boom Operator)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-sound-2",
+        "role": "Ses Asistanı (Sound Utility)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      }
+    ]
+  },
+  {
+    "id": "dept-art",
+    "name": "Sanat Departmanı",
+    "roles": [
+      "Sanat Yönetmeni (Production Designer)",
+      "Sanat Yönetmeni Yardımcısı (Art Director)",
+      "Set Dekoratörü (Set Decorator)",
+      "Aksesuarcı (Property Master)",
+      "Set Ressamı / Marangoz (Scenic Artist)"
+    ],
+    "members": [
+      {
+        "id": "p-dept-art-0",
+        "role": "Sanat Yönetmeni (Production Designer)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-art-1",
+        "role": "Sanat Yönetmeni Yardımcısı (Art Director)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-art-2",
+        "role": "Set Dekoratörü (Set Decorator)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      },
+      {
+        "id": "p-dept-art-3",
+        "role": "Aksesuarcı (Property Master)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 9000
+      },
+      {
+        "id": "p-dept-art-4",
+        "role": "Set Ressamı / Marangoz (Scenic Artist)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 7000
+      }
+    ]
+  },
+  {
+    "id": "dept-costume",
+    "name": "Kostüm, Makyaj ve Saç Departmanı",
+    "roles": [
+      "Kostüm Tasarımcısı / Sorumlusu (Costume Designer)",
+      "Kostüm Asistanı / Gardırop (Wardrobe Assistant)",
+      "Ana Makyaj Sanatçısı (Key Makeup Artist)",
+      "Ana Saç Tasarımcısı / Kuaför (Key Hair Stylist)",
+      "Makyaj/Saç Asistanı"
+    ],
+    "members": [
+      {
+        "id": "p-dept-costume-0",
+        "role": "Kostüm Tasarımcısı / Sorumlusu (Costume Designer)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-costume-1",
+        "role": "Kostüm Asistanı / Gardırop (Wardrobe Assistant)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-costume-2",
+        "role": "Ana Makyaj Sanatçısı (Key Makeup Artist)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      },
+      {
+        "id": "p-dept-costume-3",
+        "role": "Ana Saç Tasarımcısı / Kuaför (Key Hair Stylist)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 9000
+      },
+      {
+        "id": "p-dept-costume-4",
+        "role": "Makyaj/Saç Asistanı",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 7000
+      }
+    ]
+  },
+  {
+    "id": "dept-post",
+    "name": "Post-Prodüksiyon (Kurgu ve Ses) Departmanı",
+    "roles": [
+      "Kurgucu (Editor)",
+      "Kurgu Asistanı (Assistant Editor)",
+      "Renk Uzmanı (Colorist)",
+      "Ses Tasarımcısı / Kurgucusu (Sound Designer)",
+      "Görsel Efekt Süpervizörü (VFX Supervisor)"
+    ],
+    "members": [
+      {
+        "id": "p-dept-post-0",
+        "role": "Kurgucu (Editor)",
+        "name": "Aykut Özçelik",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 15000
+      },
+      {
+        "id": "p-dept-post-1",
+        "role": "Kurgu Asistanı (Assistant Editor)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 13000
+      },
+      {
+        "id": "p-dept-post-2",
+        "role": "Renk Uzmanı (Colorist)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 11000
+      },
+      {
+        "id": "p-dept-post-3",
+        "role": "Ses Tasarımcısı / Kurgucusu (Sound Designer)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SELF",
+        "budget": 9000
+      },
+      {
+        "id": "p-dept-post-4",
+        "role": "Görsel Efekt Süpervizörü (VFX Supervisor)",
+        "name": "Atanmadı",
+        "phone": "0532 100 2030",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 7000
+      }
+    ]
+  },
+  {
+    "id": "dept-custom-1785775537220",
+    "name": "Ulaştırma",
+    "roles": [
+      "Sorumlu Uzman",
+      "Asistan"
+    ],
+    "members": [
+      {
+        "id": "p-1785775543220",
+        "role": "Sorumlu Uzman",
+        "name": "Yesas",
+        "phone": "0555 000 0000",
+        "address": "İstanbul",
+        "transport": "SERVICE",
+        "budget": 5000
+      }
+    ]
+  }
+]

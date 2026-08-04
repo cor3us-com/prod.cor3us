@@ -1,0 +1,41 @@
+% ARŞİV NOTU: Bu dosya sistem kurulum testleri sırasında örnek senaryo içeriğiyle oluşturulmuştur.
+% Gerçek proje senaryosu v002'den itibaren başlamaktadır. Bu dosya yalnızca revizyon geçmişi bütünlüğü için korunmaktadır.
+Title: Örnek Kısa Film
+Draft date: 2026-08-03
+
+INT. MUTFAK - GÜNDÜZ #SC-001#
+
+/* @production
+{
+  "location_id": "LOC-001",
+  "cast": [
+    {
+      "name": "AYKUT",
+      "character_or_use": "Başrol"
+    }
+  ],
+  "props": ["Telefon", "Kahve fincanı"],
+  "estimated_screen_time_min": 1.2,
+  "estimated_shoot_time_min": 90
+}
+*/
+
+Aykut masadaki telefona bakar.
+
+AYKUT
+Bu defa cevap vereceğim.
+
+EXT. SOKAK - GECE #SC-002#
+
+/* @production
+{
+  "location_id": "LOC-002",
+  "cast": ["AYKUT"],
+  "special_equipment": ["Yağmur makinesi"],
+  "stunts_safety": "Islak zemin; kayma riski değerlendirmesi gerekli.",
+  "estimated_screen_time_min": 0.8,
+  "estimated_shoot_time_min": 120
+}
+*/
+
+Aykut boş sokakta yürür.

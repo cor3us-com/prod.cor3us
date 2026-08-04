@@ -1,0 +1,30 @@
+# .gitignore — Cor3us Ready
+
+# Hassas veri — asla repo'ya girmesin
+.env
+.env.local
+.env.production
+
+# Büyük backup/versiyon klasörleri (çok fazla dosya, repo'yu şişirir)
+00_admin/backups/
+00_admin/versions/
+09_draft/backups/
+
+# Senaryo ham metni (telif koruması)
+01_story/source/raw_script.txt
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log dosyaları
+*.log
+npm-debug.log*
+
+# Node modules (kullanılmıyor ama güvenlik için)
+node_modules/
+
+# Geçici dosyalar
+*.tmp
+*.temp

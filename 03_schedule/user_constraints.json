@@ -1,0 +1,34 @@
+[
+  {
+    "id": "C-001",
+    "category": "Oyuncu",
+    "element": "CEM",
+    "dateRange": "10 Ağu - 9 Ağustos 2026 (Tüm Gün)",
+    "status": "🟢 Müsait",
+    "reason": "Sebep belirtilmedi."
+  },
+  {
+    "id": "C-002",
+    "category": "Oyuncu",
+    "element": "CEM",
+    "dateRange": "Tarih Belirtilmedi (Tüm Gün)",
+    "status": "🔴 Müsait Değil",
+    "reason": "Sebep belirtilmedi."
+  },
+  {
+    "id": "C-003",
+    "category": "Oyuncu",
+    "element": "KAPÜŞONLU PASPASÇI",
+    "dateRange": "6 Ağu - 15 Ağu 2026 (Tüm Gün)",
+    "status": "🔴 Müsait Değil",
+    "reason": "Sebep belirtilmedi."
+  },
+  {
+    "id": "C-004",
+    "category": "Çekim Tarihleri",
+    "element": "Tüm Çekim Tarihleri",
+    "dateRange": "21 Ağu - 26 Ağustos 2026 (Tüm Gün)",
+    "status": "🟢 Müsait",
+    "reason": "Sebep belirtilmedi."
+  }
+]

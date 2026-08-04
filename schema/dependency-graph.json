@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "processor": "tools/project-sync.mjs",
+  "policy": {
+    "default_mode": "preview",
+    "source_files_are_preserved": true,
+    "removed_entities_are_reviewed_not_deleted": true,
+    "creative_decisions_are_never_invented": true,
+    "financial_and_permission_changes_require_approval": true
+  },
+  "sources": {
+    "screenplay": "01_story/source/screenplay.fountain",
+    "draft_packages": "09_draft/inbox/*/draft.json",
+    "locations": "02_breakdown/location_index.csv",
+    "budget": "04_budget/budget.csv",
+    "research": "05_research/research_log.csv"
+  },
+  "edges": [
+    {
+      "from": "screenplay",
+      "to": "02_breakdown/sequential_breakdown.csv",
+      "rule": "upsert scenes by stable scene_id"
+    },
+    {
+      "from": "screenplay",
+      "to": "02_breakdown/location_index.csv",
+      "rule": "derive location links and scene_ids"
+    },
+    {
+      "from": "screenplay",
+      "to": "02_breakdown/elements_breakdown.csv",
+      "rule": "derive production elements declared in scene metadata"
+    },
+    {
+      "from": "scene_or_location_change",
+      "to": "02_breakdown/shot_list.csv",
+      "rule": "set affected rows to REVIEW"
+    },
+    {
+      "from": "scene_or_location_change",
+      "to": "03_schedule/shooting_schedule.csv",
+      "rule": "refresh location name and set affected shoot days to REVIEW"
+    },
+    {
+      "from": "scene_location_or_cost_change",
+      "to": "04_budget/budget.csv",
+      "rule": "recalculate totals and set affected rows to NEEDS_APPROVAL"
+    },
+    {
+      "from": "budget",
+      "to": "02_breakdown/location_index.csv",
+      "rule": "sum location-linked budget totals into cost_estimate_try"
+    },
+    {
+      "from": "scene_or_location_change",
+      "to": "05_research/research_log.csv",
+      "rule": "set affected research rows to REVIEW"
+    },
+    {
+      "from": "scene_change",
+      "to": "05_research/evidence_register.csv",
+      "rule": "set affected evidence rows to REVIEW"
+    },
+    {
+      "from": "any_applied_change",
+      "to": "00_admin/LAST_SYNC_REPORT.md",
+      "rule": "record all affected identifiers, files, warnings and backup"
+    }
+  ],
+  "generated_views": [
+    "02_breakdown/SEQUENTIAL_BREAKDOWN.generated.md",
+    "02_breakdown/LOCATION_INDEX.generated.md",
+    "04_budget/BUDGET_SUMMARY.generated.md"
+  ]
+}

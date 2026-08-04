@@ -1,0 +1,23 @@
+{
+  "name": "cor3us-ready",
+  "version": "0.8.0",
+  "description": "Cor3us Ready — İyi Yolculukların Olsun (Nefs) Kısa Film Prodüksiyon Yönetim Sistemi",
+  "author": "Koray",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node tools/server.mjs",
+    "ui": "node tools/server.mjs",
+    "draft:preview": "node tools/draft-ingest.mjs",
+    "draft:apply": "node tools/draft-ingest.mjs --apply --all",
+    "sync:preview": "node tools/project-sync.mjs",
+    "sync:apply": "node tools/project-sync.mjs --apply --trigger manual",
+    "sync:run": "node tools/project-sync.mjs --screenplay 01_story/source/screenplay.fountain",
+    "project:watch": "node tools/project-sync.mjs --watch --apply",
+    "budget:migrate": "node tools/migrate-budget-csv.mjs"
+  }
+}

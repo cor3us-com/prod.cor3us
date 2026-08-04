@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "project_active_release": "v002",
+  "system_releases": [
+    {
+      "release_id": "v001_baseline_release",
+      "name": "Sürüm 1.0 (İlk Versiyon — Gömülü Google Doc, Dinamik Özel Etiketler & Mekân Bazlı Sıralı Döküm)",
+      "backed_up_at": "2026-08-03T18:36:20.000Z",
+      "backup_path": "00_admin/backups/v001_baseline_release"
+    }
+  ],
+  "updated_at": "2026-08-04T12:29:01.465Z",
+  "sources": {
+    "screenplay": {
+      "key": "screenplay",
+      "working_file": "01_story/source/screenplay.fountain",
+      "active_version": 7,
+      "active_file": "01_story/revisions/screenplay.v007.fountain",
+      "hash_sha256": "8ead258c2f859f7638cd7bc991cb90b49a3b219fe9c982395f6dcf2603756662",
+      "created_at": "2026-08-03T22:25:35.708Z",
+      "trigger": "input:ui-web",
+      "previous_file": "01_story/revisions/screenplay.v006.fountain"
+    },
+    "scenes": {
+      "key": "scenes",
+      "working_file": "02_breakdown/sequential_breakdown.csv",
+      "active_version": 30,
+      "active_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v030.csv",
+      "hash_sha256": "df229ce7357a0c5d2e16d9f7cc5bf17ede48c202561f9a51e09b1046a1b6c58c",
+      "created_at": "2026-08-04T08:47:42.944Z",
+      "trigger": "output:ui-web",
+      "previous_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v029.csv"
+    },
+    "locations": {
+      "key": "locations",
+      "working_file": "02_breakdown/location_index.csv",
+      "active_version": 9,
+      "active_file": "00_admin/versions/location_index/location_index.v009.csv",
+      "hash_sha256": "84cba4df0695fc6d677897982cca7df82197eb384f8dcedf6a9ff940039bb899",
+      "created_at": "2026-08-04T12:29:01.461Z",
+      "trigger": "output:manual",
+      "previous_file": "00_admin/versions/location_index/location_index.v008.csv"
+    },
+    "elements": {
+      "key": "elements",
+      "working_file": "02_breakdown/elements_breakdown.csv",
+      "active_version": 6,
+      "active_file": "00_admin/versions/elements_breakdown/elements_breakdown.v006.csv",
+      "hash_sha256": "aea5a327ac4ddf196802e3afb9b0d2458706ac54a56369bc5e61f80d1b0ce2a8",
+      "created_at": "2026-08-04T12:29:01.463Z",
+      "trigger": "output:manual",
+      "previous_file": "00_admin/versions/elements_breakdown/elements_breakdown.v005.csv"
+    },
+    "shots": {
+      "key": "shots",
+      "working_file": "02_breakdown/shot_list.csv",
+      "active_version": 1,
+      "active_file": "00_admin/versions/shot_list/shot_list.v001.csv",
+      "hash_sha256": "1a8ff209e7bb42a7d89880e2aa2579fdaf754cdc8f929adb0f2e240ea6d52313",
+      "created_at": "2026-08-03T13:46:59.559Z",
+      "trigger": "input:manual",
+      "previous_file": null
+    },
+    "schedule": {
+      "key": "schedule",
+      "working_file": "03_schedule/shooting_schedule.csv",
+      "active_version": 1,
+      "active_file": "00_admin/versions/shooting_schedule/shooting_schedule.v001.csv",
+      "hash_sha256": "7156ffdc27a8196c1f2a9af6637215cc95527a25f950c0eaa01c8668f821dc9e",
+      "created_at": "2026-08-03T13:46:59.561Z",
+      "trigger": "input:manual",
+      "previous_file": null
+    },
+    "budget": {
+      "key": "budget",
+      "working_file": "04_budget/budget.csv",
+      "active_version": 28,
+      "active_file": "00_admin/versions/budget/budget.v028.csv",
+      "hash_sha256": "34faa1656a4c20a4ce57533003a855c7a1666a0c65d6552b265bf2b5d46ae7c2",
+      "created_at": "2026-08-04T12:29:01.464Z",
+      "trigger": "output:manual",
+      "previous_file": "00_admin/versions/budget/budget.v027.csv"
+    },
+    "research": {
+      "key": "research",
+      "working_file": "05_research/research_log.csv",
+      "active_version": 1,
+      "active_file": "00_admin/versions/research_log/research_log.v001.csv",
+      "hash_sha256": "4a3626145283b3d6b28751e68f4a796fc8a06ad0a3948499d80687bbb5136f38",
+      "created_at": "2026-08-03T13:46:59.563Z",
+      "trigger": "input:manual",
+      "previous_file": null
+    },
+    "evidence": {
+      "key": "evidence",
+      "working_file": "05_research/evidence_register.csv",
+      "active_version": 1,
+      "active_file": "00_admin/versions/evidence_register/evidence_register.v001.csv",
+      "hash_sha256": "0147b5acb3a6bf189f2ff5bfc6dbc3315ebdbf9844415b879d2263717a0b6be0",
+      "created_at": "2026-08-03T13:46:59.565Z",
+      "trigger": "input:manual",
+      "previous_file": null
+    }
+  }
+}

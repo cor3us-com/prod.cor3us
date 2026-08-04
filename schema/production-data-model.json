@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "project_root": "E:\\CODEX\\kisa-film",
+  "encoding": "UTF-8",
+  "id_patterns": {
+    "project": "PRJ-###",
+    "scene": "SC-###",
+    "location": "LOC-###",
+    "element": "EL-###",
+    "shot": "SH-###",
+    "research": "RES-###",
+    "evidence": "EVD-###",
+    "shoot_day": "DAY-###",
+    "budget": "BUD-###",
+    "risk": "RSK-###",
+    "decision": "DEC-###"
+  },
+  "entities": {
+    "project": {
+      "primary_key": "project_id",
+      "source": "00_admin/PROJECT_CONTROL.md",
+      "required": ["project_id", "working_title", "status", "script_revision"]
+    },
+    "scene": {
+      "primary_key": "scene_id",
+      "source": "02_breakdown/sequential_breakdown.csv",
+      "required": ["scene_id", "seq_no", "scene_heading", "status"],
+      "links": ["location_id", "cast_ids", "research_ids", "evidence_ids"]
+    },
+    "location": {
+      "primary_key": "location_id",
+      "source": "02_breakdown/location_index.csv",
+      "required": ["location_id", "location_name", "permission_status", "status"],
+      "links": ["scene_ids", "research_ids", "evidence_ids"]
+    },
+    "element": {
+      "primary_key": "element_id",
+      "source": "02_breakdown/elements_breakdown.csv",
+      "required": ["element_id", "element_type", "name", "status"],
+      "links": ["scene_ids", "research_ids", "evidence_ids"]
+    },
+    "shot": {
+      "primary_key": "shot_id",
+      "source": "02_breakdown/shot_list.csv",
+      "required": ["shot_id", "scene_id", "shot_no", "status"],
+      "links": ["reference_asset"]
+    },
+    "shoot_day": {
+      "primary_key": "shoot_day_id",
+      "source": "03_schedule/shooting_schedule.csv",
+      "required": ["shoot_day_id", "date", "scene_ids", "status"],
+      "links": ["location_id", "budget_day_code"]
+    },
+    "budget_item": {
+      "primary_key": "budget_item_id",
+      "source": "04_budget/budget.csv",
+      "required": ["budget_item_id", "category", "description", "approval_status"],
+      "links": ["scene_ids", "location_id", "evidence_id"]
+    },
+    "research": {
+      "primary_key": "research_id",
+      "source": "05_research/research_log.csv",
+      "required": ["research_id", "question", "production_impact", "status"],
+      "links": ["scene_ids", "location_ids"]
+    },
+    "evidence": {
+      "primary_key": "evidence_id",
+      "source": "05_research/evidence_register.csv",
+      "required": ["evidence_id", "research_id", "claim", "confidence", "review_status"],
+      "links": ["artifact_path"]
+    }
+  },
+  "relations": [
+    {"from": "scene", "field": "location_id", "to": "location.location_id", "cardinality": "many_to_one"},
+    {"from": "scene", "field": "research_ids", "to": "research.research_id", "cardinality": "many_to_many"},
+    {"from": "research", "field": "evidence_ids", "to": "evidence.evidence_id", "cardinality": "one_to_many"},
+    {"from": "scene", "field": "elements", "to": "element.element_id", "cardinality": "many_to_many"},
+    {"from": "shot", "field": "scene_id", "to": "scene.scene_id", "cardinality": "many_to_one"},
+    {"from": "shoot_day", "field": "scene_ids", "to": "scene.scene_id", "cardinality": "many_to_many"},
+    {"from": "budget_item", "field": "scene_ids", "to": "scene.scene_id", "cardinality": "many_to_many"},
+    {"from": "budget_item", "field": "evidence_id", "to": "evidence.evidence_id", "cardinality": "many_to_one"}
+  ],
+  "controlled_values": {
+    "status": ["DRAFT", "REVIEW", "APPROVED", "LOCKED", "IN_PROGRESS", "DONE", "BLOCKED", "NEEDS_APPROVAL", "TBD"],
+    "permission_status": ["CONFIRMED", "PENDING", "UNKNOWN", "NOT_REQUIRED", "NEEDS_APPROVAL"],
+    "reliability": ["HIGH", "MEDIUM", "LOW", "UNVERIFIED"],
+    "rights_status": ["CLEARED", "LICENSE_REQUIRED", "UNKNOWN", "RESTRICTED", "NEEDS_APPROVAL"],
+    "approval_status": ["DRAFT", "QUOTED", "APPROVED", "REJECTED", "NEEDS_APPROVAL"],
+    "paid_status": ["UNPAID", "PARTIAL", "PAID", "NOT_APPLICABLE"]
+  },
+  "validation_rules": [
+    "Every scene_id in dependent files must exist in sequential_breakdown.csv.",
+    "Every location_id used by a scene or shoot day must exist in location_index.csv.",
+    "Every research_id and evidence_id must resolve to its register.",
+    "A budget item with approval_status APPROVED must have a source or explicit assumption.",
+    "A location with permission_status PENDING or UNKNOWN cannot enter a LOCKED shoot day.",
+    "A safety, stunt, vehicle, animal, child, night-work or public-space requirement must have a risk or approval note.",
+    "No final production claim may rely on an UNVERIFIED research item.",
+    "Source screenplay revision must be recorded before Story lock."
+  ]
+}

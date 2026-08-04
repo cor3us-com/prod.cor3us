@@ -7,7 +7,7 @@
     "quantity": 1,
     "unit": "Gün",
     "unit_cost_try": 5000,
-    "total_try": 0,
+    "total_try": 5000,
     "status": "❌ Talep Edilmedi",
     "producer_note": "",
     "supply_method": "Özgün İmalat",

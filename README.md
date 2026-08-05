@@ -1,4 +1,10 @@
-# Kısa Film Üretim Alanı
+# Film Prodüksiyon Hazırlık
+
+Version 1.0.0
+Status: Production Release
+Live: https://prod.cor3us.com
+
+**Architect and Original Author:** Koray Taşan
 
 Bu klasör, kısa filmi senaryo kaynağından çekim ve teslim aşamasına taşıyan çalışma alanıdır.
 
@@ -7,7 +13,7 @@ Bu klasör, kısa filmi senaryo kaynağından çekim ve teslim aşamasına taş�
 - **Şablon durumu:** Hazır üretim paketi oluşturuldu.
 - **Kaynak senaryo:** Henüz `01_story/source/` altında değil.
 - **Üretim gerçeği:** Sahne, karakter, mekan, tarih ve bütçe rakamları kaynak senaryo ve doğrulanmış araştırma gelmeden doldurulmaz.
-- **Çalışma sınırı:** Bu paket yalnızca `E:\CODEX\kisa-film` altında tutulur.
+- **Çalışma sınırı:** Bu paket yalnızca `PROJECT_ROOT` altında tutulur.
 
 ## Kullanım sırası
 

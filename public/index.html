@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Film Prodüksiyon Hazırlık — Prodüksiyon Yönetim Merkezi</title>
-  <meta name="description" content="Film Prodüksiyon Hazırlık — Kısa film prodüksiyon yönetim sistemi. Senaryo, sahne dökümü, bütçe, çekim programı ve ekip yönetimi tek panelde.">
-  <meta property="og:title" content="Film Prodüksiyon Hazırlık — Prodüksiyon Merkezi">
-  <meta property="og:description" content="Film Prodüksiyon Hazırlık — Kısa Film Prodüksiyon Yönetim Sistemi">
+  <title>Cor3us Ready — Örnek Kısa Film — Prodüksiyon Yönetim Merkezi</title>
+  <meta name="description" content="Cor3us Ready — Kısa film prodüksiyon yönetim sistemi. Senaryo, sahne dökümü, bütçe, çekim programı ve ekip yönetimi tek panelde.">
+  <meta property="og:title" content="Cor3us Ready — Prodüksiyon Merkezi">
+  <meta property="og:description" content="Cor3us Ready — Kısa Film Prodüksiyon Yönetim Sistemi">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://prod.cor3us.com">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Film Prodüksiyon Hazırlık">
-  <meta name="twitter:description" content="Film Prodüksiyon Hazırlık — Prodüksiyon Merkezi">
+  <meta name="twitter:title" content="Cor3us Ready">
+  <meta name="twitter:description" content="Cor3us Ready — Prodüksiyon Merkezi">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -933,8 +933,8 @@
     <div class="brand">
       <div class="brand-icon">🎬</div>
       <div>
-        <div class="brand-title">FILM PRODÜKSİYON HAZIRLIK</div>
-        <div style="font-size: 0.75rem; color: var(--text-muted);">Film Prodüksiyon Hazırlık — Prodüksiyon Merkezi</div>
+        <div class="brand-title">COR3US READY</div>
+        <div style="font-size: 0.75rem; color: var(--text-muted);">Örnek Kısa Film — Prodüksiyon Merkezi</div>
       </div>
     </div>
     <div class="header-actions">
@@ -1490,8 +1490,8 @@
     <div id="toast-message">Senkronizasyon tamamlandı.</div>
   </div>
 
-  <script type="module">
-    import { parseFountainToElements, renderEK1Html, renderEK2Html } from '/screenplay-formatter.js';
+  <script src="screenplay-formatter.js"></script>
+  <script>
 
     const origFetch = window.fetch;
     window.fetch = function(url, options) {
@@ -2284,18 +2284,6 @@
       if (pop) pop.style.display = 'none';
       editingRowIdForCalendar = null;
     };
-
-      sepHtml += `<div class="cal-day disabled"></div>`;
-      for (let d = 1; d <= 30; d++) {
-        let cls = 'cal-day';
-        if (calStartMonth === 'Eylül 2026' && d === calStartDay) cls += ' selected-start';
-        else if (calEndMonth === 'Eylül 2026' && d === calEndDay) cls += ' selected-end';
-        else if (calStartMonth === 'Ağustos 2026' && calEndMonth === 'Eylül 2026' && d < calEndDay) cls += ' in-range';
-        
-        sepHtml += `<div class="${cls}" onclick="onCalendarDayClick('Eylül 2026', ${d})">${d}</div>`;
-      }
-      sepContainer.innerHTML = sepHtml;
-    }
 
     window.calNavMonth = function(dir) {
       calViewMonth += dir;
@@ -3649,6 +3637,7 @@
             <tbody>${rowsHtml}</tbody>
           </table>
         </div>`;
+    }
 
     // Dynamic Pure Re-calculation Engine
     window.runSmartAutoScheduler = async function() {

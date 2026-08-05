@@ -638,13 +638,14 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   const authStatus = (process.env.AUTH_USER && process.env.AUTH_PASS) ? '🔐 Auth AÇIK' : '🔓 Auth KAPALI (geliştirme)';
   console.log(`\n╔══════════════════════════════════════════════════╗`);
   console.log(`║  🎬 FİLM PRODÜKSİYON HAZIRLIK                    ║`);
   console.log(`║  Sistemi Başarıyla Başlatıldı                    ║`);
   console.log(`╠══════════════════════════════════════════════════╣`);
   console.log(`║  📌 http://localhost:${PORT}                         ║`);
+  console.log(`║  📌 http://127.0.0.1:${PORT}                         ║`);
   console.log(`║  ${authStatus.padEnd(46)}║`);
   console.log(`╚══════════════════════════════════════════════════╝\n`);
 });

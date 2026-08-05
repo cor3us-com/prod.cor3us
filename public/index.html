@@ -1491,6 +1491,15 @@
   </div>
 
   <script type="module">
+    const origFetch = window.fetch;
+    window.fetch = function(url, options) {
+      if (typeof url === 'string' && url.startsWith('/api/')) {
+        const baseUrl = (location.protocol === 'file:' || !location.port) ? 'http://localhost:3000' : '';
+        url = baseUrl + url;
+      }
+      return origFetch(url, options);
+    };
+
     import { parseFountainToElements, renderEK1Html, renderEK2Html } from '/screenplay-formatter.js';
 
     let rawFountainText = '';

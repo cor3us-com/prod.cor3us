@@ -1,8 +1,12 @@
 import zipfile
 import xml.etree.ElementTree as ET
 import re
+import os
 
-z = zipfile.ZipFile(r'E:\prod.cor3us\FINAL_FINAL_GERÇEKTENSON_v27.docx')
+base_dir = os.path.dirname(os.path.abspath(__file__))
+docx_path = os.path.join(base_dir, 'FINAL_FINAL_GERÇEKTENSON_v27.docx')
+
+z = zipfile.ZipFile(docx_path)
 xml_content = z.read('word/document.xml').decode('utf-8')
 
 # Remove XML tags
@@ -25,5 +29,6 @@ for l in lines:
     out.append(l)
 
 final_text = '\n'.join(out)
-with open(r'E:\prod.cor3us\release\01_story\source\screenplay.fountain', 'w', encoding='utf-8') as f:
+out_path = os.path.join(base_dir, '01_story', 'source', 'screenplay.fountain')
+with open(out_path, 'w', encoding='utf-8') as f:
     f.write(final_text)

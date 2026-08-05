@@ -1491,6 +1491,8 @@
   </div>
 
   <script type="module">
+    import { parseFountainToElements, renderEK1Html, renderEK2Html } from '/screenplay-formatter.js';
+
     const origFetch = window.fetch;
     window.fetch = function(url, options) {
       if (typeof url === 'string' && url.startsWith('/api/')) {
@@ -1499,8 +1501,6 @@
       }
       return origFetch(url, options);
     };
-
-    import { parseFountainToElements, renderEK1Html, renderEK2Html } from '/screenplay-formatter.js';
 
     let rawFountainText = '';
     let currentMode = 'EK1';

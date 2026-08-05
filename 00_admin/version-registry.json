@@ -9,7 +9,7 @@
       "backup_path": "00_admin/backups/v001_baseline_release"
     }
   ],
-  "updated_at": "2026-08-05T19:21:15.221Z",
+  "updated_at": "2026-08-05T19:36:23.085Z",
   "sources": {
     "screenplay": {
       "key": "screenplay",
@@ -24,22 +24,22 @@
     "scenes": {
       "key": "scenes",
       "working_file": "02_breakdown/sequential_breakdown.csv",
-      "active_version": 32,
-      "active_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v032.csv",
-      "hash_sha256": "1be2f7b1d87b69a7ec6381d657fe846513ac2b3d0a4029a807d05da0da1067b8",
-      "created_at": "2026-08-05T19:21:15.219Z",
+      "active_version": 34,
+      "active_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v034.csv",
+      "hash_sha256": "41f14bb93790160287f382afd0a5f2be2cce75d5b6a1498dc7966143eff8170b",
+      "created_at": "2026-08-05T19:36:23.082Z",
       "trigger": "output:manual",
-      "previous_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v031.csv"
+      "previous_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v033.csv"
     },
     "locations": {
       "key": "locations",
       "working_file": "02_breakdown/location_index.csv",
-      "active_version": 11,
-      "active_file": "00_admin/versions/location_index/location_index.v011.csv",
-      "hash_sha256": "63265811da74bafeb9c73e80168e5ed795479e4d0caf93d089416185bb3789b4",
-      "created_at": "2026-08-05T19:21:15.220Z",
+      "active_version": 13,
+      "active_file": "00_admin/versions/location_index/location_index.v013.csv",
+      "hash_sha256": "621d04ee4eff585c9f7e02eb43577a9609d6b14ee38be973173782287ab073e9",
+      "created_at": "2026-08-05T19:36:23.084Z",
       "trigger": "output:manual",
-      "previous_file": "00_admin/versions/location_index/location_index.v010.csv"
+      "previous_file": "00_admin/versions/location_index/location_index.v012.csv"
     },
     "elements": {
       "key": "elements",

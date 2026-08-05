@@ -1,23 +1,23 @@
 scene_id;seq_no;script_page_start;script_page_end;scene_heading;int_ext;location_id;story_time;day_night;cast_ids;extras;props;wardrobe_makeup;set_dressing;vehicles_animals;special_equipment;camera_sound_notes;vfx_sfx;stunts_safety;research_ids;evidence_ids;estimated_screen_time_min;estimated_setup_min;estimated_shoot_time_min;priority;status;notes
-SC-001;1;;;İÇ. KORAY’IN ÇALIŞMA ODASI – GECE;INT;LOC-006;GECE;NIGHT;;;;;;;;;;Fiziksel mücadele ve bağlama sahnelerinde oyuncu güvenliği önlemleri.;;;1.5;;90;;REVIEW;source=screenplay | source_changed=screenplay
-SC-002;2;;;İÇ. MUTFAK – GECE;INT;LOC-007;GECE;NIGHT;;;;;;;;;;Wing Chun koreografisi ve düşüş minderleri kontrol edilmeli.;;;2;;120;;REVIEW;source=screenplay | source_changed=screenplay
-SC-003;3;;;DIŞ. MAHALLE KAFESİ – GÜNDÜZ;EXT;LOC-008;GÜNDÜZ;DAY;;;;;;;;PROD NOTU: Anne ve Aziz karakterleri için karşı sahne veya mekân çekimi YAPILMAYACAKTIR. Telefon konuşmaları araç kitinden gelen ses (V.O.) olarak kaydedilecektir.;;;;;2.5;;90;;REVIEW;source=screenplay | source_changed=screenplay
-SC-004;4;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;PROD NOTU: Yargıç Turan karakteri için karşı sahne çekilmeyecektir. Konuşma V.O. olarak kaydedilecektir. Tecavüz anı hatırlatmaları kısa siyah-beyaz flashback olarak kurgulanacaktır.;;Araç sürüşü sırasında düşen kaya ve aniden durma manevra güvenliği.;;;3;;120;;REVIEW;source=screenplay | source_changed=screenplay
-SC-005;5;;;İÇ. ELİF’İN SALONU – AKŞAM;INT;LOC-010;AKŞAM;MIXED;;;;;;;;PROD NOTU: Müvekkil Şebnem karakteri için karşı sahne çekilmeyecektir. Konuşma V.O. olarak kaydedilecektir.;;;;;2;;60;;REVIEW;source=screenplay | source_changed=screenplay
-SC-006;6;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;2.5;;120;;REVIEW;source=screenplay | source_changed=screenplay
-SC-007;7;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;1;;60;;REVIEW;source=screenplay | source_changed=screenplay
-SC-008;8;;;İÇ. ÇALIŞMA ODASI – BİRKAÇ DAKİKA SONRA;INT;LOC-009;BİRKAÇ DAKİKA SONRA;TBD;;;;;;;;;;Yoğun dövüş, duvara vurma ve tığ toka darbe sahnelerinde profesyonel dublör/koreografi ve güvenlik önlemleri şarttır.;;;4.5;;240;;REVIEW;source=screenplay | source_changed=screenplay
-SC-009;9;;;İÇ. KORAY’IN ÇALIŞMA ODASI – ŞAFAK;INT;LOC-006;ŞAFAK;TBD;;;;;;;;;;;;;3;;120;;REVIEW;source=screenplay | source_changed=screenplay
-SC-010;10;;;İÇ. GAMZE’NİN ARABASI – GÜNDÜZ;INT;LOC-011;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-011;11;;;DIŞ. BENZİNLİK – GÜNDÜZ;EXT;LOC-012;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-012;12;;;İÇ. MARKET – GÜNDÜZ;INT;LOC-013;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-013;13;;;İÇ. ÇALIŞMA ODASI – GÜNDÜZ;INT;LOC-009;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-014;14;;;İÇ. ELİF’İN MUTFAĞI – AKŞAM;INT;LOC-014;AKŞAM;MIXED;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-015;15;;;DIŞ. APARTMAN BALKONU – AKŞAM;EXT;LOC-015;AKŞAM;MIXED;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-016;16;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-017;17;;;İÇ. PRODÜKSİYON TOPLANTISI – GÜNDÜZ;INT;LOC-016;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-018;18;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-019;19;;;İÇ. KARANLIK SİNEMA SALONU – GECE;INT;LOC-017;GECE;NIGHT;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-020;20;;;İÇ. ÇALIŞMA ODASI – SABAH;INT;LOC-009;SABAH;DAY;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-021;21;;;İÇ. GAMZE’NİN EVİ – AKŞAM;INT;LOC-018;AKŞAM;MIXED;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
-SC-022;22;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;;;;;DRAFT;source=screenplay
+SC-001;1;;;İÇ. KORAY'IN ÇALIŞMA ODASI - GECE;INT;LOC-006;GECE;NIGHT;;;;;;;;;;Fiziksel mücadele ve bağlama sahnelerinde oyuncu güvenliği önlemleri.;;;1.5;;90;;REVIEW;source=screenplay | source_changed=screenplay
+SC-002;2;;;İÇ. EKRAN - KORA SOHBETİ - GECE;INT;LOC-019;KORA SOHBETİ - GECE;NIGHT;;;;;;;;;;Wing Chun koreografisi ve düşüş minderleri kontrol edilmeli.;;;2;;120;;REVIEW;source=screenplay | source_changed=screenplay
+SC-003;3;;;DIŞ. MAHALLE KAFESİ – GÜNDÜZ;EXT;LOC-008;GÜNDÜZ;DAY;;;;;;;;PROD NOTU: Anne ve Aziz karakterleri için karşı sahne veya mekân çekimi YAPILMAYACAKTIR. Telefon konuşmaları araç kitinden gelen ses (V.O.) olarak kaydedilecektir.;;;;;2.5;;90;;REVIEW;source=screenplay | source_changed=screenplay | source_removed=screenplay
+SC-004;4;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;PROD NOTU: Yargıç Turan karakteri için karşı sahne çekilmeyecektir. Konuşma V.O. olarak kaydedilecektir. Tecavüz anı hatırlatmaları kısa siyah-beyaz flashback olarak kurgulanacaktır.;;Araç sürüşü sırasında düşen kaya ve aniden durma manevra güvenliği.;;;3;;120;;REVIEW;source=screenplay | source_changed=screenplay | source_removed=screenplay
+SC-005;5;;;İÇ. ELİF’İN SALONU – AKŞAM;INT;LOC-010;AKŞAM;MIXED;;;;;;;;PROD NOTU: Müvekkil Şebnem karakteri için karşı sahne çekilmeyecektir. Konuşma V.O. olarak kaydedilecektir.;;;;;2;;60;;REVIEW;source=screenplay | source_changed=screenplay | source_removed=screenplay
+SC-006;6;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;2.5;;120;;REVIEW;source=screenplay | source_changed=screenplay | source_removed=screenplay
+SC-007;7;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;1;;60;;REVIEW;source=screenplay | source_changed=screenplay | source_removed=screenplay
+SC-008;8;;;İÇ. ÇALIŞMA ODASI – BİRKAÇ DAKİKA SONRA;INT;LOC-009;BİRKAÇ DAKİKA SONRA;TBD;;;;;;;;;;Yoğun dövüş, duvara vurma ve tığ toka darbe sahnelerinde profesyonel dublör/koreografi ve güvenlik önlemleri şarttır.;;;4.5;;240;;REVIEW;source=screenplay | source_changed=screenplay | source_removed=screenplay
+SC-009;9;;;İÇ. KORAY’IN ÇALIŞMA ODASI – ŞAFAK;INT;LOC-006;ŞAFAK;TBD;;;;;;;;;;;;;3;;120;;REVIEW;source=screenplay | source_changed=screenplay | source_removed=screenplay
+SC-010;10;;;İÇ. GAMZE’NİN ARABASI – GÜNDÜZ;INT;LOC-011;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-011;11;;;DIŞ. BENZİNLİK – GÜNDÜZ;EXT;LOC-012;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-012;12;;;İÇ. MARKET – GÜNDÜZ;INT;LOC-013;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-013;13;;;İÇ. ÇALIŞMA ODASI – GÜNDÜZ;INT;LOC-009;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-014;14;;;İÇ. ELİF’İN MUTFAĞI – AKŞAM;INT;LOC-014;AKŞAM;MIXED;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-015;15;;;DIŞ. APARTMAN BALKONU – AKŞAM;EXT;LOC-015;AKŞAM;MIXED;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-016;16;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-017;17;;;İÇ. PRODÜKSİYON TOPLANTISI – GÜNDÜZ;INT;LOC-016;GÜNDÜZ;DAY;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-018;18;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-019;19;;;İÇ. KARANLIK SİNEMA SALONU – GECE;INT;LOC-017;GECE;NIGHT;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-020;20;;;İÇ. ÇALIŞMA ODASI – SABAH;INT;LOC-009;SABAH;DAY;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-021;21;;;İÇ. GAMZE’NİN EVİ – AKŞAM;INT;LOC-018;AKŞAM;MIXED;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay
+SC-022;22;;;İÇ. ÇALIŞMA ODASI – GECE;INT;LOC-009;GECE;NIGHT;;;;;;;;;;;;;;;;;REVIEW;source=screenplay | source_removed=screenplay

@@ -9,37 +9,37 @@
       "backup_path": "00_admin/backups/v001_baseline_release"
     }
   ],
-  "updated_at": "2026-08-05T19:05:04.317Z",
+  "updated_at": "2026-08-05T19:21:15.221Z",
   "sources": {
     "screenplay": {
       "key": "screenplay",
       "working_file": "01_story/source/screenplay.fountain",
-      "active_version": 10,
-      "active_file": "01_story/revisions/screenplay.v010.fountain",
-      "hash_sha256": "d9b306064750c451765ccd0af17b904926582bda2d4d945f8c84aa5e4da8d521",
-      "created_at": "2026-08-05T19:05:04.240Z",
+      "active_version": 14,
+      "active_file": "01_story/revisions/screenplay.v014.fountain",
+      "hash_sha256": "9e714215d7041ace1b804baae1ff0401e33824c0ce150c975271f142ff18f54b",
+      "created_at": "2026-08-05T19:21:15.176Z",
       "trigger": "input:manual",
-      "previous_file": "01_story/revisions/screenplay.v009.fountain"
+      "previous_file": "01_story/revisions/screenplay.v013.fountain"
     },
     "scenes": {
       "key": "scenes",
       "working_file": "02_breakdown/sequential_breakdown.csv",
-      "active_version": 31,
-      "active_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v031.csv",
-      "hash_sha256": "936dd859cb802a15e0f6b91a3771d8a683bc1cf51d070f27a96efa1ca7830600",
-      "created_at": "2026-08-05T19:05:04.314Z",
+      "active_version": 32,
+      "active_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v032.csv",
+      "hash_sha256": "1be2f7b1d87b69a7ec6381d657fe846513ac2b3d0a4029a807d05da0da1067b8",
+      "created_at": "2026-08-05T19:21:15.219Z",
       "trigger": "output:manual",
-      "previous_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v030.csv"
+      "previous_file": "00_admin/versions/sequential_breakdown/sequential_breakdown.v031.csv"
     },
     "locations": {
       "key": "locations",
       "working_file": "02_breakdown/location_index.csv",
-      "active_version": 10,
-      "active_file": "00_admin/versions/location_index/location_index.v010.csv",
-      "hash_sha256": "b1cb3a20a10b05ee334843629b362b87103e2d3c6659da46cb3c5c7f6dcb7ccc",
-      "created_at": "2026-08-05T19:05:04.315Z",
+      "active_version": 11,
+      "active_file": "00_admin/versions/location_index/location_index.v011.csv",
+      "hash_sha256": "63265811da74bafeb9c73e80168e5ed795479e4d0caf93d089416185bb3789b4",
+      "created_at": "2026-08-05T19:21:15.220Z",
       "trigger": "output:manual",
-      "previous_file": "00_admin/versions/location_index/location_index.v009.csv"
+      "previous_file": "00_admin/versions/location_index/location_index.v010.csv"
     },
     "elements": {
       "key": "elements",

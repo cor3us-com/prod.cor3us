@@ -4,16 +4,17 @@ LOC-002;Emin'in Spor Salonu;;INT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=sc
 LOC-003;Özgü'nün Arabası / Sahil Yolu;;INT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;DRAFT | source=screenplay | source_orphaned=screenplay
 LOC-004;Benzin İstasyonu ve Yol;;INT/EXT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
 LOC-005;Benzin İstasyonu Tuvaleti;;INT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
-LOC-006;KORAY’IN ÇALIŞMA ODASI;;INT;;NIGHT;SC-001,SC-009;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-007;MUTFAK;;INT;;NIGHT;SC-002;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-008;MAHALLE KAFESİ;;EXT;;DAY;SC-003;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-009;ÇALIŞMA ODASI;;INT;;NIGHT;SC-004,SC-006,SC-007,SC-008,SC-013,SC-016,SC-018,SC-020,SC-022;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-010;ELİF’İN SALONU;;INT;;MIXED;SC-005;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-011;GAMZE’NİN ARABASI;;INT;;DAY;SC-010;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-012;BENZİNLİK;;EXT;;DAY;SC-011;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-013;MARKET;;INT;;DAY;SC-012;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-014;ELİF’İN MUTFAĞI;;INT;;MIXED;SC-014;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-015;APARTMAN BALKONU;;EXT;;MIXED;SC-015;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-016;PRODÜKSİYON TOPLANTISI;;INT;;DAY;SC-017;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-017;KARANLIK SİNEMA SALONU;;INT;;NIGHT;SC-019;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
-LOC-018;GAMZE’NİN EVİ;;INT;;MIXED;SC-021;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
+LOC-006;KORAY'IN ÇALIŞMA ODASI;;INT;;NIGHT;SC-001;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay
+LOC-007;MUTFAK;;INT;;NIGHT;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-008;MAHALLE KAFESİ;;EXT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-009;ÇALIŞMA ODASI;;INT;;NIGHT;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-010;ELİF’İN SALONU;;INT;;MIXED;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-011;GAMZE’NİN ARABASI;;INT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-012;BENZİNLİK;;EXT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-013;MARKET;;INT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-014;ELİF’İN MUTFAĞI;;INT;;MIXED;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-015;APARTMAN BALKONU;;EXT;;MIXED;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-016;PRODÜKSİYON TOPLANTISI;;INT;;DAY;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-017;KARANLIK SİNEMA SALONU;;INT;;NIGHT;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-018;GAMZE’NİN EVİ;;INT;;MIXED;;UNKNOWN;;TBD;;;;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+LOC-019;EKRAN;;INT;;NIGHT;SC-002;UNKNOWN;;TBD;;;;;;;;;;;;;DRAFT;source=screenplay

@@ -3,45 +3,45 @@ EL-001;CAST;AYKUT;;CAST;Başrol;;;;;;;;;REVIEW;source=screenplay | ARCHIVED: ör
 EL-002;PROP;Telefon;;ART;;;;;;;;;;REVIEW;source=screenplay | ARCHIVED: örnek senaryo artığı — gerçek senaryoda bu prop bulunmuyor | source_orphaned=screenplay
 EL-003;PROP;Kahve fincanı;;ART;;;;;;;;;;REVIEW;source=screenplay | ARCHIVED: örnek senaryo artığı — gerçek senaryoda bu prop bulunmuyor | source_orphaned=screenplay
 EL-004;SPECIAL_EQUIPMENT;Yağmur makinesi;;CAMERA_GRIP;;;;;;;;;;REVIEW;source=screenplay | ARCHIVED: örnek senaryo artığı — gerçek senaryoda bu ekipman bulunmuyor | source_orphaned=screenplay
-EL-005;CAST;CEM;SC-001;CAST;Şüpheli / Saldırgan;;;;;;;;;DRAFT;source=screenplay
-EL-006;CAST;YILDIZ;SC-001;CAST;Mağdur;;;;;;;;;DRAFT;source=screenplay
-EL-007;PROP;Viski bardağı;SC-001;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-008;PROP;Çerçeveli fotoğraf;SC-001;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-009;PROP;Kravatlar;SC-001;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-010;PROP;Küçük makas;SC-001;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-011;WARDROBE_MAKEUP;İç çamaşırı, gece kıyafeti;SC-001;WARDROBE_MAKEUP;;;;;;;;;;DRAFT;source=screenplay
-EL-012;SET_DRESSING;Yatak odası, gardırop, banyo çekmeceleri;SC-001;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-013;CAST;ÖZGÜ;SC-002,SC-003,SC-004,SC-005,SC-006,SC-008,SC-009;CAST;Başrol;;;;;;;;;DRAFT;source=screenplay
-EL-014;CAST;EMİN;SC-002;CAST;Wing Chun Ustası;;;;;;;;;DRAFT;source=screenplay
-EL-015;CAST;KAPÜŞONLU PASPASÇI;SC-002;CAST;Gölge Karakter / Arka Plan;;;;;;;;;DRAFT;source=screenplay
-EL-016;PROP;Tığ saç tokası;SC-002,SC-003,SC-008;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-017;PROP;Paspas ve kova;SC-002;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-018;WARDROBE_MAKEUP;Dövüş şortu ve atlet, yıpranmış kot tulum ve şapka/kapüşonlu ceket;SC-002;WARDROBE_MAKEUP;;;;;;;;;;DRAFT;source=screenplay
-EL-019;PROP;Akıllı telefon;SC-003,SC-004,SC-005;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-020;PROP;Adalet terazisi dikiz aynası süsü;SC-003;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-021;PROP;Kapağı kapalı adalet terazisi;SC-004;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-022;PROP;Benzin azaldı ikazı ekranı;SC-005;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-023;PROP;Benzinlik 3 km tabelası;SC-005;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-024;CAST;HANDE;SC-006,SC-007,SC-009;CAST;İstasyon Çalışanı Çocuk;;;;;;;;;DRAFT;source=screenplay
-EL-025;CAST;DEDE;SC-006;CAST;Market Sahibi / Muhammed Cangören;;;;;;;;;DRAFT;source=screenplay
-EL-026;PROP;Voleybol topu;SC-006;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-027;PROP;Su şişesi;SC-006;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-028;PROP;Nakit para;SC-006,SC-009;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-029;WARDROBE_MAKEUP;Hande: Voleybol Milli Takımı forması (arkasında Hande yazılı);SC-006;WARDROBE_MAKEUP;;;;;;;;;;DRAFT;source=screenplay
-EL-030;SET_DRESSING;Duvarda karakalem voleybol filesi çizimi, market kasası;SC-006;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-031;CAST;DÖVMELİ;SC-007,SC-008;CAST;Motorlu Saldırgan;;;;;;;;;DRAFT;source=screenplay
-EL-032;PROP;Motosiklet;SC-007;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-033;PROP;Küçük hap kutusu / ilaç;SC-007;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-034;WARDROBE_MAKEUP;Dövmeli: Karmaşık vücut dövmeleri, kirli görünüm;SC-007;WARDROBE_MAKEUP;;;;;;;;;;DRAFT;source=screenplay
-EL-035;PROP;Kadın çantası;SC-008;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-036;PROP;Dövüş kıyafetleri (şort/tişört);SC-008;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-037;PROP;Küçük ilaç kutusu / hap;SC-008;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-038;PROP;Kırık ayna ve makyaj malzemeleri;SC-008;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-039;WARDROBE_MAKEUP;Özgü: Çiçekli elbise -> Dövüş şortu ve tişörtü, kan efektleri. Dövmeli: Kovboy botları, yoğun vücut dövmeleri, kan efektleri.;SC-008;WARDROBE_MAKEUP;;;;;;;;;;DRAFT;source=screenplay
-EL-040;SET_DRESSING;Aynalar, lavabolar, tuvalet kabinleri, kan efektleri;SC-008;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-041;CAST;KAPÜŞONLU GÖLGE;SC-009;CAST;Gölge Karakter;;;;;;;;;DRAFT;source=screenplay
-EL-042;PROP;Siyah göz kalemi;SC-009;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-043;PROP;Benzin fişi;SC-009;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-044;PROP;Aseton ve pamuk;SC-009;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-045;SET_DRESSING;Pompa makinesi, kamera servis aracı;SC-009;ART;;;;;;;;;;DRAFT;source=screenplay
-EL-046;PROP;makas;SC-002;ART;;;;;;;;;;DRAFT;source=screenplay
+EL-005;CAST;CEM;;CAST;Şüpheli / Saldırgan;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-006;CAST;YILDIZ;;CAST;Mağdur;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-007;PROP;Viski bardağı;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-008;PROP;Çerçeveli fotoğraf;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-009;PROP;Kravatlar;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-010;PROP;Küçük makas;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-011;WARDROBE_MAKEUP;İç çamaşırı, gece kıyafeti;;WARDROBE_MAKEUP;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-012;SET_DRESSING;Yatak odası, gardırop, banyo çekmeceleri;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-013;CAST;ÖZGÜ;;CAST;Başrol;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-014;CAST;EMİN;;CAST;Wing Chun Ustası;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-015;CAST;KAPÜŞONLU PASPASÇI;;CAST;Gölge Karakter / Arka Plan;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-016;PROP;Tığ saç tokası;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-017;PROP;Paspas ve kova;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-018;WARDROBE_MAKEUP;Dövüş şortu ve atlet, yıpranmış kot tulum ve şapka/kapüşonlu ceket;;WARDROBE_MAKEUP;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-019;PROP;Akıllı telefon;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-020;PROP;Adalet terazisi dikiz aynası süsü;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-021;PROP;Kapağı kapalı adalet terazisi;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-022;PROP;Benzin azaldı ikazı ekranı;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-023;PROP;Benzinlik 3 km tabelası;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-024;CAST;HANDE;;CAST;İstasyon Çalışanı Çocuk;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-025;CAST;DEDE;;CAST;Market Sahibi / Muhammed Cangören;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-026;PROP;Voleybol topu;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-027;PROP;Su şişesi;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-028;PROP;Nakit para;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-029;WARDROBE_MAKEUP;Hande: Voleybol Milli Takımı forması (arkasında Hande yazılı);;WARDROBE_MAKEUP;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-030;SET_DRESSING;Duvarda karakalem voleybol filesi çizimi, market kasası;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-031;CAST;DÖVMELİ;;CAST;Motorlu Saldırgan;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-032;PROP;Motosiklet;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-033;PROP;Küçük hap kutusu / ilaç;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-034;WARDROBE_MAKEUP;Dövmeli: Karmaşık vücut dövmeleri, kirli görünüm;;WARDROBE_MAKEUP;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-035;PROP;Kadın çantası;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-036;PROP;Dövüş kıyafetleri (şort/tişört);;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-037;PROP;Küçük ilaç kutusu / hap;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-038;PROP;Kırık ayna ve makyaj malzemeleri;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-039;WARDROBE_MAKEUP;Özgü: Çiçekli elbise -> Dövüş şortu ve tişörtü, kan efektleri. Dövmeli: Kovboy botları, yoğun vücut dövmeleri, kan efektleri.;;WARDROBE_MAKEUP;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-040;SET_DRESSING;Aynalar, lavabolar, tuvalet kabinleri, kan efektleri;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-041;CAST;KAPÜŞONLU GÖLGE;;CAST;Gölge Karakter;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-042;PROP;Siyah göz kalemi;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-043;PROP;Benzin fişi;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-044;PROP;Aseton ve pamuk;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-045;SET_DRESSING;Pompa makinesi, kamera servis aracı;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay
+EL-046;PROP;makas;;ART;;;;;;;;;;REVIEW;source=screenplay | source_orphaned=screenplay

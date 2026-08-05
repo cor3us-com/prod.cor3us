@@ -416,7 +416,7 @@ const server = http.createServer(async (req, res) => {
         ? await fs.readFile(path.join(ADMIN_DIR, 'LAST_SYNC_REPORT.md'), 'utf8') : '';
 
       const pkgData = {
-        title: "COR3US READY — İYİ YOLCULUKLARIN OLSUN (NEFS) — Prodüksiyon Paketi",
+        title: "FİLM PRODÜKSİYON HAZIRLIK — Prodüksiyon Paketi",
         generated_at: new Date().toISOString(),
         screenplay,
         scenes,
@@ -541,7 +541,7 @@ const server = http.createServer(async (req, res) => {
       const archive = {
         schema_version: '1.0.0',
         exported_at: new Date().toISOString(),
-        project_title: 'İYİ YOLCULUKLARIN OLSUN (NEFS)',
+        project_title: 'FİLM PRODÜKSİYON HAZIRLIK',
         files: {
           'screenplay.fountain':           await readText(path.join(STORY_DIR, 'source', 'screenplay.fountain')),
           'sequential_breakdown.csv':      await readCsvTx(path.join(BREAKDOWN_DIR, 'sequential_breakdown.csv')),
@@ -641,8 +641,8 @@ const server = http.createServer(async (req, res) => {
 server.listen(PORT, () => {
   const authStatus = (process.env.AUTH_USER && process.env.AUTH_PASS) ? '🔐 Auth AÇIK' : '🔓 Auth KAPALI (geliştirme)';
   console.log(`\n╔══════════════════════════════════════════════════╗`);
-  console.log(`║  🎬 COR3US READY — Prodüksiyon Merkezi          ║`);
-  console.log(`║  İyi Yolculukların Olsun (Nefs)                  ║`);
+  console.log(`║  🎬 FİLM PRODÜKSİYON HAZIRLIK                    ║`);
+  console.log(`║  Sistemi Başarıyla Başlatıldı                    ║`);
   console.log(`╠══════════════════════════════════════════════════╣`);
   console.log(`║  📌 http://localhost:${PORT}                         ║`);
   console.log(`║  ${authStatus.padEnd(46)}║`);
